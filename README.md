@@ -41,5 +41,26 @@ Here is the list of functions and programs I did and short explinations:
 **iterativefactorial.go** func IterativeFactorial(nb int) int 
 // A function that returns the factorial of the number, overflows or 0 value will return 0
 
-**recursivefactorial** RecursiveFactorial(nb int) int 
+**recursivefactorial.go** func RecursiveFactorial(nb int) int 
 // A function that returns the factorial of the number, overflows or 0 value will return 0
+
+**iterativepower.go** func IterativePower(nb int, power int) int 
+// A function that returns the number times the factorial of power
+
+**recursivepower.go** func RecursivePower(nb int, power int) int 
+// A function that returns the number times the factorial of power
+
+**fibonacci.go** func Fibonacci(index int) int
+// A function that returns the number of the at set index from Fibonacci sequence
+
+**sqrt.go** func Sqrt(nb int) int
+// A function that returns the square root of a number, if it's a whole number
+
+**isprime.go** func IsPrime(nb int) bool
+// A function that checks if the number is a prime number
+
+**findnextprime.go** func FindNextPrime(index int) int \n
+// A function that returns the next prime number or the number passed as index if it's a prime number
+
+
+

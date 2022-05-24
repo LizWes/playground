@@ -10,3 +10,7 @@ func IterativePower(nb int, power int) int {
 	}
 	return result
 }
+
+// Write an iterative function that returns the value of
+// nb to the power of power. Negative powers will return 0.
+// Overflows do not have to be dealt with.
