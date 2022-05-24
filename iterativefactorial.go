@@ -16,3 +16,7 @@ func IterativeFactorial(nb int) int {
 		return result
 	}
 }
+
+// Write an iterative function that returns the factorial
+// of the int passed as parameter.
+//Errors (non possible values or overflows) will return 0.

@@ -29,4 +29,6 @@ Here is the list of functions and programs I did and short explinations:
 
 **strrev.go** func StrRev(s string) string A function that reverses a string
 
+**iterativefactorial.go** func IterativeFactorial(nb int) int// A function that returns the factorial of the number, overflows or 0 value will return 0
 
+**recursivefactorial** RecursiveFactorial(nb int) int // A function that returns the factorial of the number, overflows or 0 value will return 0
