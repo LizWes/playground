@@ -5,3 +5,8 @@ func DivMod(a int, b int, div *int, mod *int) {
 
 	*mod = a % b
 }
+
+//This function will divide the int a and b.
+//The result of this division will be stored
+//in the int pointed by div.
+//The remainder of this division will be stored in the int pointed by mod.
