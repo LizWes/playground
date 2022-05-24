@@ -11,24 +11,35 @@ Here is the list of functions and programs I did and short explinations:
 
 **printdigits/main.go** A program that prints decimal digits from 0 to 9 as runes
 
-**isnegative.go** A function that prints T if its negative or F if it is not
+**isnegative.go** func IsNegative(number int)
+// A function that prints T if its negative or F if it is not
 
-**printcomb.go** A function that returns thre number combinations in ascending order where firstDigit < secondDigit < thirdDigit
+**printcomb.go** func PrintComb()
+// A function that returns thre number combinations in ascending order where firstDigit < secondDigit < thirdDigit
 
-**pointone.go** A function that changes the value of an int trough a pointer to 1
+**pointone.go** func PointOne(n *int) 
+// A function that changes the value of an int trough a pointer to 1
 
-**ultimatepointone.go** A function that changes the value of an int trough three pointers to 1
+**ultimatepointone.go** func UltimatePointOne(n ***int) 
+//A function that changes the value of an int trough three pointers to 1
 
-**divmod.go** DivMod(a int, b int, div *int, mod *int) A function that takes two ints and returns the division result of them to one pre determinde variable and the remainder of the divison to another pre determind variable
+**divmod.go** DivMod(a int, b int, div *int, mod *int) 
+// A function that takes two ints and returns the division result of them to one pre determinde variable and the remainder of the divison to another pre determind variable
 
-**ultimatedivmod.go** UltimateDivMod(a *int, b *int) A function that takes two ints and returns the division result of them to the first variable and the remainder of the divison to second variable
+**ultimatedivmod.go** UltimateDivMod(a *int, b *int) 
+//A function that takes two ints and returns the division result of them to the first variable and the remainder of the divison to second variable
 
-**printstr.go** func PrintStr(s string) A function that prints a string one character at a time as a rune 
+**printstr.go** func PrintStr(s string) 
+// A function that prints a string one character at a time as a rune 
 
-**strlen.go** func StrLen(s string) int A function that counts the lenght of a string and returns it as a int
+**strlen.go** func StrLen(s string) int 
+// A function that counts the lenght of a string and returns it as a int
 
-**strrev.go** func StrRev(s string) string A function that reverses a string
+**strrev.go** func StrRev(s string) string
+// A function that reverses a string
 
-**iterativefactorial.go** func IterativeFactorial(nb int) int// A function that returns the factorial of the number, overflows or 0 value will return 0
+**iterativefactorial.go** func IterativeFactorial(nb int) int 
+// A function that returns the factorial of the number, overflows or 0 value will return 0
 
-**recursivefactorial** RecursiveFactorial(nb int) int // A function that returns the factorial of the number, overflows or 0 value will return 0
+**recursivefactorial** RecursiveFactorial(nb int) int 
+// A function that returns the factorial of the number, overflows or 0 value will return 0
