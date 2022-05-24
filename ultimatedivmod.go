@@ -5,7 +5,6 @@ func UltimateDivMod(a *int, b *int) {
 	mod := *a % *b
 	*a = div
 	*b = mod
-
 }
 
 //This function will divide the int a and b.

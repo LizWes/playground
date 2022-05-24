@@ -22,3 +22,11 @@ Here is the list of functions and programs I did and short explinations:
 **divmod.go** DivMod(a int, b int, div *int, mod *int) A function that takes two ints and returns the division result of them to one pre determinde variable and the remainder of the divison to another pre determind variable
 
 **ultimatedivmod.go** UltimateDivMod(a *int, b *int) A function that takes two ints and returns the division result of them to the first variable and the remainder of the divison to second variable
+
+**printstr.go** func PrintStr(s string) A function that prints a string one character at a time as a rune 
+
+**strlen.go** func StrLen(s string) int A function that counts the lenght of a string and returns it as a int
+
+**strrev.go** func StrRev(s string) string A function that reverses a string
+
+
