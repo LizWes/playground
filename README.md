@@ -1,10 +1,16 @@
 # playground
 Things I did a magical month in Åland
 
-Here is the list of functions and programs I did and short explinations
+There is a comment in every function and program indicating the task given.
+
+Here is the list of functions and programs I did and short explinations:
 
 **printalphabet/main.go** A program that prints the latin alphabet as a string
  
 **printreversealphabet/main.go** A program that prints the latin alphabet as a string in reversorder
 
-**printdigits/main.go** 
+**printdigits/main.go** A program that prints decimal digits from 0 to 9 as runes
+
+**isnegative.go** A function that prints T if its negative or F if it is not
+
+**printcomb.go** A function that returns thre number combinations in ascending order where firstDigit < secondDigit < thirdDigit
