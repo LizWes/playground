@@ -59,8 +59,28 @@ Here is the list of functions and programs I did and short explinations:
 **isprime.go** func IsPrime(nb int) bool
 // A function that checks if the number is a prime number
 
-**findnextprime.go** func FindNextPrime(index int) int \n
+**findnextprime.go** func FindNextPrime(index int) int 
 // A function that returns the next prime number or the number passed as index if it's a prime number
 
+**firstrune.go** func FirstRune(s string) rune 
+// A function that converts a string to a slice that returns the first caracter and returns it as a rune
+
+**lastrune.go** func LastRune(s string) rune
+// A function that converts a string to a slice that returns the last caracter and returns it as a rune
+
+**nrune.go**  func NRune(str string, num int) rune
+// A function that converts a string to a slice and returns a character using the num as index for the slice
+
+**compare.go** func Compare(a, b string) int 
+// A function that compares two strings and returns 0 it they are equeal to each other, -1 if a is smaler than b and 1 if a is bigger than b
+
+**alphacount.go** func AlphaCount(s string) int 
+// counts the amount of letters in a string and returns the count
+
+**index.go** func Index(s string, toFind string) int
+// A function that looks if the string toFind is found in string s and returns -1 if its not found and 1 if its found
+
+**concat.go** (str1 string, str2 string) string 
+// A function that adds to strings togheter and returns the result
 
 

@@ -10,3 +10,5 @@ func Compare(a, b string) int {
 		return 1
 	}
 }
+
+//Write a function that behaves like the Compare function.

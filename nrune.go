@@ -1,13 +1,16 @@
 package piscine
 
-func NRune(s string, n int) rune {
-	runes := []rune(s)
+func NRune(str string, num int) rune {
+	runes := []rune(str)
 	len := 0
 	for i := range runes {
 		len = i
 	}
-	if n-1 >= 0 && n-1 <= len {
-		return runes[n-1]
+	if num-1 >= 0 && num-1 <= len {
+		return runes[num-1]
 	}
 	return 0
 }
+
+// Write a function that returns the nth rune
+// of a string. If not possible, it returns 0.
