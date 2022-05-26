@@ -15,3 +15,5 @@ func main() {
 		z01.PrintRune('\n')
 	}
 }
+
+// Write a program that prints the arguments received in the command line.

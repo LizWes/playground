@@ -5,11 +5,14 @@ There is a comment in every function and program indicating the task given.
 
 Here is the list of functions and programs I did and short explinations:
 
-**printalphabet/main.go** A program that prints the latin alphabet as a string
+**printalphabet/main.go** 
+//A program that prints the latin alphabet as a string
  
-**printreversealphabet/main.go** A program that prints the latin alphabet as a string in reversorder
+**printreversealphabet/main.go** 
+//A program that prints the latin alphabet as a string in reversorder
 
-**printdigits/main.go** A program that prints decimal digits from 0 to 9 as runes
+**printdigits/main.go** 
+//A program that prints decimal digits from 0 to 9 as runes
 
 **isnegative.go** func IsNegative(number int)
 // A function that prints T if its negative or F if it is not
@@ -83,4 +86,42 @@ Here is the list of functions and programs I did and short explinations:
 **concat.go** (str1 string, str2 string) string 
 // A function that adds to strings togheter and returns the result
 
+**isupper.go** func IsUpper(s string) bool 
+// A function that checks if every letter in a sring is only uppercase
+
+**islower.go** func IsLower(s string) bool
+// A function that checks if every letter in a sring is only lowercase
+
+**isalpha.go** func IsAlpha(s string) bool 
+// A function that checks if every letter in a sring is only alphanumerical characters
+
+**isnumeric.go** func IsAlpha(s string) bool 
+// A function that checks if every letter in a sring is only numbers
+
+**isprintable.go** func IsPrintable(s string) bool
+// A function that checks if every character is printable
+
+**toupper.go** func ToUpper(s string) string
+// A function that turns every letter to upper character
+
+**tolower.go** func ToLower(s string) string
+//  A function that turns every letter to lower character
+
+**printnbrinorder.go** func PrintNbrInOrder(n int) 
+// A function that prints the numbers of an int in asending order
+
+**trimatoi.go** func TrimAtoi(s string) int
+// A function that tranforms a number in a string into an int
+
+**capitalize.go** func Capitalize(s string) string
+// A function that capitalizes the first letter of every word in a string an lower cases the rest
+
+**printprogramname/main.go** 
+// A program that prints the name of the program
+
+**printparams/main.go**
+// A program that prints every new argument put into the terminal on a new line
+
+**revparams/main.go**
+// A program that prints every new argument put into the terminal on a new line in reverse order
 

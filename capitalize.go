@@ -31,3 +31,7 @@ func Capitalize(s string) string {
 	}
 	return result
 }
+
+// Write a function that capitalizes the first letter of
+// each word and lowercases the rest.
+// A word is a sequence of alphanumeric characters.

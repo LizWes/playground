@@ -17,3 +17,6 @@ func main() {
 		z01.PrintRune(b)
 	}
 }
+
+// Write a program that prints the arguments
+// received in the command line in reverse order.

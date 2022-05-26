@@ -12,3 +12,6 @@ func IsAlpha(s string) bool {
 	}
 	return true
 }
+
+// Write a function that returns true if the string passed as the
+//parameter only contains alphanumerical characters or is empty, otherwise, and returns false.

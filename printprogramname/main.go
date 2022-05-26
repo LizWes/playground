@@ -17,3 +17,5 @@ func main() {
 	}
 	z01.PrintRune('\n')
 }
+
+//Write a program that prints the name of the program.
