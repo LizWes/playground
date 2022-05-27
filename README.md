@@ -125,3 +125,16 @@ Here is the list of functions and programs I did and short explinations:
 **revparams/main.go**
 // A program that prints every new argument put into the terminal on a new line in reverse order
 
+**appendrange.go** func AppendRange(min, max int) []int
+// A function that retunes a slice of ints with the values between min and max
+
+**makerange.go** func MakeRange(min, max int) []int
+// A function that retunes a slice of ints with the values between min and max
+
+**concatparams.go** func ConcatParams(args []string) string 
+// A function that turns arguments into a string with new line after every argument
+
+**splitwhitespaces.go** func SplitWhiteSpaces(s string) []string
+// 
+
+
