@@ -145,3 +145,9 @@ Here is the list of functions and programs I did and short explinations:
 
 **displayfile** 
 // A program that displays the content of a file, when go is run with right arguments 
+
+**foreach.go** ForEach(f func(int), a []int)
+// A function that aplies another function on every value in aslice of ints
+
+**map.go** func Map(f func(int) bool, a []int) []bool 
+// A function aplies a function on every value in a slice of ints and returns the results as a slice of bools
