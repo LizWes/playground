@@ -135,6 +135,13 @@ Here is the list of functions and programs I did and short explinations:
 // A function that turns arguments into a string with new line after every argument
 
 **splitwhitespaces.go** func SplitWhiteSpaces(s string) []string
-// 
+//  A function tht converts a string to a slice by separating a string with whitespaces
 
+**boolean** 
+//  A program that checks the arguments put into the terminal and responsens if there is an even or odd number of arguments
 
+**point**
+// A program that sets the values of x and y then prints to the terminal the varibles an respective values
+
+**displayfile** 
+// A program that displays the content of a file, when go is run with right arguments 

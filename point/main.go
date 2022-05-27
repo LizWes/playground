@@ -7,11 +7,6 @@ type pointer struct {
 	y int
 }
 
-func setPoint(pointer *pointer) {
-	pointer.x = 42
-	pointer.y = 21
-}
-
 func main() {
 	points := &pointer{}
 
@@ -48,8 +43,19 @@ func main() {
 	z01.PrintRune('\n')
 }
 
+func setPoint(pointer *pointer) {
+	pointer.x = 42
+	pointer.y = 21
+}
+
 func printStr(s string) {
 	for _, r := range s {
 		z01.PrintRune(r)
 	}
 }
+
+// Create a new directory called point.
+// The code below must be copied into a
+// file called main.go inside the point directory.
+// The necessary changes must be applied so that the program works.
+// The function setPoint() must work with int.
