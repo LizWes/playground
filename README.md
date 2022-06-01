@@ -151,3 +151,12 @@ Here is the list of functions and programs I did and short explinations:
 
 **map.go** func Map(f func(int) bool, a []int) []bool 
 // A function aplies a function on every value in a slice of ints and returns the results as a slice of bools
+
+**any.go** func Any(f func(string) bool, a []string) bool 
+// A function that checks every value in a slice with another function and returns true if any is true
+
+**countif.go**  func CountIf(f func(string) bool, tab []string) int
+// A function that checks every value in a slice with another function and returns the count of values that returns true
+
+**issorted.go** func IsSorted(f func(a, b int) int, a []int) bool 
+// A function that checks if a slice of int are sorted and returns true if values is sorted in increasing order
